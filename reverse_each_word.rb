@@ -2,8 +2,9 @@ def reverse_each_word(str)
   array = []
   array << str
   %w[array]
-  pp array
+  new_array = []
   array.each do |string|
-    puts "#{string.reverse}"
+    new_array << "#{string.reverse}"
   end
+  puts new_array.join(" ")
 end
