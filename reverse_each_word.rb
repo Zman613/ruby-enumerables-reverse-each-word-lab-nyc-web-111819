@@ -4,6 +4,6 @@ def reverse_each_word(str)
   %w[array]
   pp array
   array.each do |string|
-    puts << "#{string.reverse}"
+    puts "#{string.reverse}"
   end
 end
