@@ -1,5 +1,7 @@
 def reverse_each_word(str)
-  array = str.to_a
+  array = []
+  array << str
+  %w[array]
   array.each do |string|
     puts "#{string.reverse!}"
   end
